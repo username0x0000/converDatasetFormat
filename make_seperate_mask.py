@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 
-class Image:
+class Image2Mask:
     def __init__(self, img_path, save_path):
         self.img_list = [f for f in os.listdir(img_path) if f[-3:] in ['png', 'jpg']]
         self.img_path = img_path
